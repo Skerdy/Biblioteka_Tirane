@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Librari Elektronike">
+
+        <Preference
+            android:key="introduction"
+            android:summary="Nje shfletues elektronik per Biblioteken e Tiranes"
+            android:title="Mbi aplikacionin" />
+
+        <Preference
+            android:key="currentVersion"
+            android:summary="Prototip"
+            android:title="Versioni" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Tirane">
+        <Preference
+            android:summary="W2020"
+            android:title="2017" />
+    </PreferenceCategory>
+</PreferenceScreen>

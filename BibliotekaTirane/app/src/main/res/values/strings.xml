@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Biblioteka Tiranë</string>
+
+    <string name="navigation_drawer_open">Hap menune</string>
+    <string name="navigation_drawer_close">Mbyllni menune</string>
+
+    <string name="action_settings">Set up</string>
+    <string name="menu_favorite">Koleksion</string>
+    <string name="menu_save">Ruaj</string>
+    <string name="menu_browser">Hap ne browser</string>
+    <string name="menu_more">Menu</string>
+
+    <string name="note_edit_hint">koment</string>
+
+
+
+
+    <string name="hello_world">hi</string>
+
+</resources>

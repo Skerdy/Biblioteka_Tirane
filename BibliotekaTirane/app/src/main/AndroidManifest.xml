@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="me.icxd.biblioteka">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:name="me.icxd.biblioteka.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+        android:largeHeap="true">
+
+
+        <activity
+            android:name="me.icxd.biblioteka.activity.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="pspdfkit_license_key"
+            android:value="vbvDf-ug7vMQLqxQIRzZusoKVxs6Pw24xMGc_-Pz_G0wsg42-sb2iMx9GWfLW4jL2pFNvntBTkB-Cz9oAYXm-DeXzUBfq8_rprHfqk5SpbTrbv2JkJngrrRBcPt6oN3HhTPAbmgz47VTbfsllD8GDznIUOenaJFnbMjIpD82Co9djhmyqQhVYxdtAD3k6kdHS9QrXA_Zq4mU2QM6fCM-mRo4euhtzsj7ptw-9GVHnmWRDJyHqg6Hcv-aC9gt5gagWQIPi_NsQzt4C_2kqo7RY0ow3BIf_iWqNFqk2b2KqomYP7Lfk1PgS9KJSTecXzUrgghsFwOgSlHTy0aj0fnI9muDSKfWDCiJA_Hjdo7KTcmIk7tdYKSoWF7X4o5LQkdgdBpM9hTgGwVbtmalGmWpfuD2XPTUx1-OFhWccAvvfDM4K63d7hy5X6h_JcSMkgxQ"/>
+
+        <activity
+            android:name="me.icxd.biblioteka.activity.LoginRregjistrim.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark" >
+
+        </activity>
+        <activity
+            android:name="me.icxd.biblioteka.activity.LoginRregjistrim.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark"
+            >
+
+        </activity>
+        <activity
+            android:name="me.icxd.biblioteka.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.icxd.biblioteka.activity.BookInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.icxd.biblioteka.activity.ScannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.icxd.biblioteka.activity.BookNoteEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.icxd.biblioteka.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.icxd.biblioteka.activity.LexoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Lexo"/>
+        <activity
+            android:name="me.icxd.biblioteka.activity.ProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.icxd.biblioteka.activity.KategoriActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.pspdfkit.ui.PdfActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name="me.icxd.biblioteka.activity.LexoPSPDF"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen" >
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_profili"
+            android:icon="@drawable/ic_menu_add"
+            android:title="Profili im" />
+        <item
+            android:id="@+id/nav_biblioteka"
+            android:icon="@drawable/ic_menu_add"
+            android:title="Biblioteka" />
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/ic_menu_scanner"
+            android:title="Skanim ISBN" />
+    </group>
+
+    <item android:title="">
+    <menu>
+
+    <item
+        android:id="@+id/shqip"
+        android:icon="@drawable/albania"
+        android:title="Letersi Shqiptare" />
+
+    <item
+        android:id="@+id/huaj"
+        android:icon="@drawable/bota"
+        android:title="Letersi e Huaj" />
+
+    </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+    <item
+        android:id="@+id/drame"
+        android:icon="@drawable/roman"
+        android:title="Drame" />
+
+    <item
+        android:id="@+id/Filozofik"
+        android:icon="@drawable/roman"
+        android:title="Roman Filozofik" />
+    <item
+        android:id="@+id/antike"
+        android:icon="@drawable/roman"
+        android:title="Letersi antike" />
+
+    <item
+        android:id="@+id/historik"
+        android:icon="@drawable/roman"
+        android:title="Roman Historik" />
+
+            <item
+                android:id="@+id/poezi"
+                android:icon="@drawable/roman"
+                android:title="Poezi" />
+
+</menu>
+    </item>
+
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="Rreth Aplikacionit" />
+        </menu>
+    </item>
+
+</menu>
+
